@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+
+.colaborador {
+    width: 280px;
+}
+
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    bottom: -50px;
+    position: relative;
+}
+
+.colaborador .cabecalho {
+    border-radius: 10px 10px 0 0;
+    background-color: #6278f7;  
+    background-image: url('/public/imagens/fundo.png');
+    background-size: cover;
+}
+
+.colaborador .descricao {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.colaborador .descricao h4 {
+    color: #6278f7;
+    font-size: 18px;    
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.colaborador .descricao h5 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 16px;
+    font-family: "Montserrat", sans-serif;
+}

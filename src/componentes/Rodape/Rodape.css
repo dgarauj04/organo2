@@ -1,0 +1,57 @@
+.rodape {
+    background-color: hsl(231, 90%, 68%);
+    background-image: url('/public/imagens/fundo.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 60px 0;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.rodape ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+  
+.rodape ul li:last-child {
+    margin-right: 0;
+}
+
+.rodape ul li a {
+    font-size: 22px;
+    color: #FFF;
+    text-decoration: none;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape ul li a img {
+    width: 100%;
+}
+
+.rodape .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34px;
+}
+
+.rodape p {
+    font-size: 20px;
+    text-align: center;
+}
+
+

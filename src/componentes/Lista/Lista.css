@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+
+.lista {
+    margin: 24px 0;
+}
+
+.lista label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.lista select {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgb(0 0 0 / 28%);
+    width: 100%;
+    padding: 24px;
+    font-size: 17px;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lista select:focus {
+    outline: none;
+}
