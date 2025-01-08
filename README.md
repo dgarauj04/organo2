@@ -16,6 +16,9 @@ Este projeto é uma aplicação React que permite criar cards personalizados com
 
 * Visualizar os cards criados em uma interface amigável
 *Filtrar os cards por time
+*Adicionar card como favorito
+*Remover card
+*Adicionar novo time
 
 ## Tecnologias Utilizadas
 
