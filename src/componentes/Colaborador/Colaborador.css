@@ -2,6 +2,7 @@
 
 .colaborador {
     width: 280px;
+    position: relative;
 }
 
 .colaborador img {
@@ -12,14 +13,17 @@
 }
 
 .colaborador .cabecalho {
-    border-radius: 10px 10px 0 0;
-    background-color: #6278f7;  
+    border-radius: 10px 10px 0 0;  
     background-image: url('/public/imagens/fundo.png');
     background-size: cover;
+    background-position: center;
 }
 
 .colaborador .descricao {
     background-color: #ffffff;
+    background-image: url('/public/imagens/fundo.png');
+    background-size: cover;
+    background-position: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0 0 10px 10px;
     padding-top: 70px;
@@ -31,7 +35,8 @@
     font-size: 18px;    
     line-height: 22px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin: 0;
+    margin-bottom: 15px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -40,5 +45,18 @@
     font-size: 18px;
     line-height: 22px;
     padding: 0 16px;
+    margin: 0;
+    margin-bottom: 25px;
     font-family: "Montserrat", sans-serif;
+}
+
+.deletar {
+    position: absolute;
+    right: -7px;
+    top: -8px;
+    cursor: pointer;
+}
+
+.favorito {
+  margin-top: 20px;
 }

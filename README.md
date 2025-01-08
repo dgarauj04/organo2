@@ -21,8 +21,14 @@ Este projeto é uma aplicação React que permite criar cards personalizados com
 
 * React
 * JavaScript
-* CSS (ou outra biblioteca de estilos, se aplicável)
+* CSS
 
+<hr>
+
+## Link para testar o projeto:
+
+<a href="https://organo-chi-livid.vercel.app/" target="_blank">Clique aqui</a>
+  
 # Sinta-se à vontade para modificar qualquer parte do texto para melhor se adequar ao seu projeto e estilo!
 
 ## Screenshots

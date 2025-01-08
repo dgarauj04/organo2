@@ -6,13 +6,15 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
-    padding: 32px;
+    padding: 12px;
     width: 167px;
     height: 80px;
     margin: 24px 0;
+    text-align: center;
 }
 
 .botao:hover {
-    background-color: #6278f7;
+    background-color: #2c3583;
     color: #95FFD4;
+    font-size: 20px;
 }
